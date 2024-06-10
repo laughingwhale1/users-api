@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using UsersApi.Models;
+using UsersApi.Models.Extensions;
 
 public class DataContext : DbContext
 {
@@ -28,5 +29,13 @@ public class DataContext : DbContext
         optionsBuilder.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
     }
 
-    public DbSet<User> Users { get; set; }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(DataContext).Assembly);
+        modelBuilder.AddPostgreSqlRules();
+    }
+
+    public DbSet<User> users { get; set; }
 }
