@@ -3,7 +3,20 @@ using UsersApi.Models;
 
 public class DataContext : DbContext
 {
-    public DataContext(DbContextOptions<DataContext> options) : base(options) { }
+    public DataContext()
+    {
+    }
+
+    public DataContext(DbContextOptions<DataContext> options) : base(options)
+    {
+    }
+
+    public static void Initialize(DbContext context)
+    {
+        context.Database.Migrate();
+
+        // could add seed data
+    }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

@@ -19,7 +19,6 @@ C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\UsersApi.MvcApplicat
 C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\staticwebassets.build.json
 C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\staticwebassets.development.json
 C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\scopedcss\bundle\UsersApi.styles.css
-C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\UsersApi.csproj.CopyComplete
 C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\UsersApi.dll
 C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\refint\UsersApi.dll
 C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\UsersApi.pdb
@@ -224,3 +223,10 @@ C:\my-projects\users-api\UsersApi\UsersApi\bin\Debug\net6.0\Microsoft.EntityFram
 C:\my-projects\users-api\UsersApi\UsersApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\my-projects\users-api\UsersApi\UsersApi\bin\Debug\net6.0\Npgsql.dll
 C:\my-projects\users-api\UsersApi\UsersApi\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\UsersApi.sourcelink.json
+C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\staticwebassets\msbuild.UsersApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\staticwebassets\msbuild.build.UsersApi.props
+C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UsersApi.props
+C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.UsersApi.props
+C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\my-projects\users-api\UsersApi\UsersApi\obj\Debug\net6.0\UsersApi.csproj.Up2Date
