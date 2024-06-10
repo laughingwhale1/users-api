@@ -20,11 +20,6 @@ namespace UsersApi.Controllers
             _dataContext = dataContext;
         }
         
-        private static List<User> users = new List<User>
-        {
-            new User{Id = 1, Location = "NY", FirstName = "Peter", LastName = "Parker"}
-        };
-        
         [HttpGet(Name = "get-users")]
         public async Task<ActionResult<List<User>>> Get()
         {
